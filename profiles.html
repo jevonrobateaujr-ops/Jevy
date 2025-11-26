@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profiles - ChatGPT</title>
+
+    <link rel="icon" type="image/png" href="img/my_passport_photo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button id="theme-toggle">🌙</button>
+
+    <header id="main-header">
+        <h1>User Profiles</h1>
+        <p>Meet our featured users</p>
+    </header>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li class="dropdown">
+                <a class="active" href="profiles.html">User Profiles ▾</a>
+                <div class="dropdown-menu">
+                    <a href="#alex">Alex</a>
+                    <a href="#sarah">Sarah</a>
+                    <a href="#michael">Michael</a>
+                </div>
+            </li>
+
+            <li><a href="biography.html">Transcript / Biography</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="content-section">
+
+        <div id="alex" class="profile-card glass">
+            <h3>Alex Johnson</h3>
+            <p>Software developer specializing in backend systems and AI.</p>
+        </div>
+
+        <div id="sarah" class="profile-card glass">
+            <h3>Sarah Williams</h3>
+            <p>Creative artist who focuses on digital painting.</p>
+        </div>
+
+        <div id="michael" class="profile-card glass">
+            <h3>Michael Lee</h3>
+            <p>Engineer passionate about robotics and automation.</p>
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        <p>&copy; <span id="year"></span> ChatGPT.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ChatGPT</title>
+
+    <link rel="icon" type="image/png" href="img/my_passport_photo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button id="theme-toggle">🌙</button>
+
+    <header id="main-header">
+        <h1>Contact Us</h1>
+        <p>Submit your message below</p>
+    </header>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li class="dropdown">
+                <a href="profiles.html">User Profiles ▾</a>
+                <div class="dropdown-menu">
+                    <a href="profiles.html#alex">Alex</a>
+                    <a href="profiles.html#sarah">Sarah</a>
+                    <a href="profiles.html#michael">Michael</a>
+                </div>
+            </li>
+
+            <li><a href="biography.html">Transcript / Biography</a></li>
+            <li><a class="active" href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="content-section">
+        <h2>Message Form</h2>
+
+        <form id="contact-form">
+            <label>Name</label>
+            <input type="text" id="name">
+
+            <label>Email</label>
+            <input type="email" id="email">
+
+            <label>Message</label>
+            <textarea id="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <p>&copy; <span id="year"></span> ChatGPT.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

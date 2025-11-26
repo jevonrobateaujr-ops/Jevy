@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - ChatGPT</title>
+
+    <link rel="icon" type="image/png" href="img/my_passport_photo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button id="theme-toggle">🌙</button>
+
+    <header id="main-header">
+        <h1>Gallery</h1>
+        <p>Explore images below.</p>
+    </header>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="gallery.html">Gallery</a></li>
+
+            <li class="dropdown">
+                <a href="profiles.html">User Profiles ▾</a>
+                <div class="dropdown-menu">
+                    <a href="profiles.html#alex">Alex</a>
+                    <a href="profiles.html#sarah">Sarah</a>
+                    <a href="profiles.html#michael">Michael</a>
+                </div>
+            </li>
+
+            <li><a href="biography.html">Transcript / Biography</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- SLIDESHOW -->
+    <section class="content-section">
+        <h2>Image Slideshow</h2>
+
+        <div class="slideshow-container">
+            <img class="slide" src="img/pic1.jpg">
+            <img class="slide" src="img/pic2.jpg">
+            <img class="slide" src="img/pic3.jpg">
+        </div>
+    </section>
+
+    <footer id="footer">
+        <p>&copy; <span id="year"></span> ChatGPT.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
